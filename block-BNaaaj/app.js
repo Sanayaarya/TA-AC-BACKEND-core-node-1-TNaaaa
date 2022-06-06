@@ -1,4 +1,11 @@
 let area = require('./area')
-area.square(2,3)
-area.circle(1,6)
-area.ractangle(2,8)
+var circle_area = area.circle(10);
+
+console.log(circle_area,square_area,rectangle_area)
+
+var buffer1 = Buffer.alloc(12)
+var buffer2 = Buffer.allocUnsafe(12);
+ 
+
+buffer1.write('Hello-World')
+console.log(bufer1.toString()); 
